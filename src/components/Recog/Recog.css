@@ -1,0 +1,32 @@
+.recog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;  
+    text-align: start; 
+}
+.recog .details{
+    width: 500px;
+}
+.recog .details a{
+    color: var(--mainRed);
+    text-align: start;
+}
+.recog .image{
+    width: 400px;
+}
+.recog .image img{
+    width: 100%;
+}
+.details .img-div{
+    display: flex;
+
+}
+.details .img-div div{
+    width: 100px;
+}
+.details .img-div div img{
+    width: 100%;
+}

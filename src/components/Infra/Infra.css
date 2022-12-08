@@ -1,0 +1,25 @@
+.infra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 30px;
+    flex-wrap: wrap;
+    text-align: start;
+    background-color: var(--infraColor);
+}
+.infra .details{
+    width: 450px;
+}
+.infra .data{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+    gap: 2em;
+}
+.infra .data .items{
+    width: 120px;
+}
+.data .items h2{
+    color: var(--mainRed);
+}

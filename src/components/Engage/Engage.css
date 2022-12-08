@@ -1,0 +1,20 @@
+.engage{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: var(--infraColor);
+    padding: 30px;
+    text-align: start;
+}
+.engage .img{
+    display: flex;
+    justify-content: center;
+}
+.engage .details{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+}
+

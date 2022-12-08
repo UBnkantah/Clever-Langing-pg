@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --mainRed: rgb(218, 50, 50);
+  --infraColor: rgb(248, 248, 248);
+  --profColor: rgb(252, 244, 238);
+}

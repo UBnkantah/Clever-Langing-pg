@@ -1,0 +1,21 @@
+.crmLead{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: var(--profColor);
+    text-align: start;
+}
+.details{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5em;
+    color: var(--mainRed);
+}
+.img{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+}

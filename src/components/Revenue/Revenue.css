@@ -1,0 +1,16 @@
+.revenue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    padding: 30px;
+}
+.revenue .details{
+    width: 400px;
+}
+.img{
+    width: 400px;
+}
+.img img{
+    width: 100%;
+}

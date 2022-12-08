@@ -1,0 +1,32 @@
+.footer-badges{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer-badges .div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+
+.footer-badges .sub-badges-right .img-div{
+    width: 80px;
+    height: 80px;
+}
+.footer-badges .sub-badges-right .img-div .img{
+    width: 100%;
+    height: 100%;
+}
+.footer-badges .div .capterra{
+    width: inherit;
+    height: inherit;
+}
+
+@media screen and (max-width: 767px) {
+    .footer-badges{
+        padding: 30px;
+    }
+}
+

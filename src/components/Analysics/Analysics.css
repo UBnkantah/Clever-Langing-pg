@@ -1,0 +1,33 @@
+.analysics{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 1.5em;
+}
+.sub-analysics{
+    width: 300px;
+    padding: 15px;
+    border: 1px solid black;
+    display: flex;
+    gap: 20px;
+    text-align: start;
+    border-radius: 10px;
+}
+.sub-analysics .img{
+    width: 30px;
+    height: 30px;
+}
+.sub-analysics .img img{
+    width: 100%;
+    height: 100%;
+}
+.sub-analysics .details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+.sub-analysics .details a{
+    color: var(--mainRed);
+}

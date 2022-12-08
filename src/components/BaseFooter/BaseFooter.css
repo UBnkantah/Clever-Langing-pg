@@ -1,0 +1,29 @@
+.baseFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+    gap: 1em;
+}
+.baseFooter div {
+    display: flex;
+}
+.baseFooter div p{
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.baseFooter .first p{
+    margin-left: 10px;
+}
+.baseFooter .first{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 767px){
+    .baseFooter{
+        padding: 15px 30px;
+        text-align: start;
+    }
+}
