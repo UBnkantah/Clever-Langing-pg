@@ -28,7 +28,10 @@
 .sub_resources .details .content a{
     color: var(--mainRed);
 }
-
+.details .content h4,
+.details .content h5{
+    color: black;
+}
 @media screen and (max-width: 767px) {
     .resources{
         padding: 30px;

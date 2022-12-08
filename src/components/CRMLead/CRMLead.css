@@ -4,6 +4,8 @@
     padding: 50px;
     background-color: var(--profColor);
     text-align: start;
+    flex-wrap: wrap;
+    gap: 1em;
 }
 .details{
     width: 400px;
@@ -11,6 +13,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 0.5em;
+    text-align: start;
     color: var(--mainRed);
 }
 .img{

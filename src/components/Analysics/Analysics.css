@@ -31,3 +31,8 @@
 .sub-analysics .details a{
     color: var(--mainRed);
 }
+.sub-analysics .details h3{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}

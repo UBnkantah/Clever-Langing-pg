@@ -22,11 +22,18 @@
 }
 .details .img-div{
     display: flex;
-
+    flex-wrap: wrap;
 }
 .details .img-div div{
     width: 100px;
 }
 .details .img-div div img{
     width: 100%;
+}
+.details h1{
+    color: black;
+}
+.details p{
+    color: black;
+    font-weight: 500;
 }

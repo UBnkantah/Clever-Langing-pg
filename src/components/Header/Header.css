@@ -1,7 +1,8 @@
 .header{
     background-color: var(--mainRed);
     display: flex;
-    padding: 0px 30px;
+    padding: 0px 50px;
+    flex-wrap: wrap;
     gap: 3em;
 }
 .header .details{
@@ -16,6 +17,8 @@
 }
 .details .header-logo{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .header-logo div{
     width: 100px;
@@ -38,4 +41,19 @@
 .header-img img{
     height: 100%;
     width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .header{
+        padding: 0 30px;
+    }
+    .header .details{
+        min-width: 320px;
+    }
+    .header h1{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .header-img{
+        min-height: 320px;
+    }
 }

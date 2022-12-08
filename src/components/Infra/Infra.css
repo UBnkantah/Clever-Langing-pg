@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     text-align: start;
     background-color: var(--infraColor);
+    gap: 1.5em;
 }
 .infra .details{
     width: 450px;
@@ -22,4 +23,12 @@
 }
 .data .items h2{
     color: var(--mainRed);
+    font-weight: 800;
+}
+.infra .details h1{
+    color: black;
+}
+.infra .details p{
+    color: black;
+    font-weight: 500;
 }

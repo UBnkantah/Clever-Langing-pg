@@ -13,8 +13,8 @@ const Navbar = () => {
 
   return (
         <div className='navbar'>
-            <img src={Logo} alt="" />
-            <nav>
+            <img src={Logo} alt="logo" />
+            <nav ref={NavRef}>
               <a href="/">Products</a>
               <a href="/">Industries</a>
               <a href="/">Successes</a>
@@ -24,12 +24,12 @@ const Navbar = () => {
                   <button className='login'>Login</button>
                   <button className='get'>Get Started</button>
               </div>
-              <button className='navbar-btn'>
-                  <FaTimes size="16px"/>
+              <button className='navbar-btn nav-close' onClick={showNavbar}>
+                  <FaTimes size="20px"/>
               </button>
             </nav>
-            <button className='navbar-btn'>
-              <FaBars size="16px" />
+            <button className='navbar-btn' onClick={showNavbar}>
+              <FaBars size="20px" />
             </button>
         </div>
   )
