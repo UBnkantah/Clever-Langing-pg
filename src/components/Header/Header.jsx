@@ -53,7 +53,7 @@ const Header = () => {
         variants={txtAnimate}
         >Making Mobile Retention a piece of</motion.h1>
         <motion.div
-        variants={txtAnimate}
+        
         >
           <img src={Chee} alt="chee" />
         </motion.div>

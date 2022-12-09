@@ -1,9 +1,34 @@
 import React from 'react'
 import "./Footer.css"
+import {motion} from "framer-motion"
+
+
+const txtAnimate ={
+    offScreen:{y:100, opacity: 0},
+    onscreen:{
+      y:0,
+      opacity: 1,
+      transition: {
+        type: "string",
+        bounce: 0.4,
+        duration: 1
+      }
+  
+    }
+}
+
 const Footer = () => {
   return (
-    <div className='footer'>
-        <div>
+    <motion.div
+    className='footer'
+        initial={"offScreen"}
+      whileInView={"onscreen"}
+      viewport={{once:false, amount:1}}
+      transition={{staggerChildren: 0.5}}
+    >
+        <motion.div
+        variants={txtAnimate}
+        >
             <h3>Product</h3>
             <ul>
                 <li>Cross Champing Messaging</li>
@@ -14,8 +39,10 @@ const Footer = () => {
                 <li>Pricing and Plans</li>
                 <li>CleverTap for startups</li>
             </ul>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+        variants={txtAnimate}
+        >
             <h3>Features</h3>
             <ul>
                 <li>Push Notification</li>
@@ -26,15 +53,19 @@ const Footer = () => {
                 <li>Presentation</li>
                 <li>A/B Testing</li>
             </ul>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+        variants={txtAnimate}
+        >
             <h3>Sucesses</h3>
             <ul>
                 <li>Customer SpotLight</li>
                 <li>Case Studies</li>
             </ul>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+        variants={txtAnimate}
+        >
             <h3>Resources </h3>
             <ul>
                 <li>Blog</li>
@@ -50,8 +81,10 @@ const Footer = () => {
                 <li>Developer Documentation</li>
                 <li>CleverTap Tech</li>
             </ul>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+        variants={txtAnimate}
+        >
             <h3>Industries</h3>
             <ul>
                 <li>Food Tech</li>
@@ -61,8 +94,10 @@ const Footer = () => {
                 <li>Ecommerce</li>
                 <li>Subscription</li>
             </ul>
-        </div>
-        <div>
+        </motion.div>
+        <motion.div
+        variants={txtAnimate}
+        >
             <h3>Company</h3>
             <ul>
                 <li>About Us</li>
@@ -72,8 +107,8 @@ const Footer = () => {
                 <li>CleverTap4Good</li>
                 <li>Contact Us</li>
             </ul>
-        </div>
-    </div>
+        </motion.div>
+    </motion.div>
   )
 }
 
