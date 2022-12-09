@@ -13,7 +13,13 @@
     color: white;
     width: 500px;
 }
-.details button{
+.details h1{
+    color: white;
+}
+.details p{
+    color: white;
+}
+.details #button{
     background-color: white;
     padding: 7px 13px;
     color: var(--mainRed);

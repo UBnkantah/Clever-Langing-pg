@@ -20,5 +20,9 @@
     width: 400px;
     display: flex;
     justify-content: center;
-
+}
+.crmLead .details p{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
 }

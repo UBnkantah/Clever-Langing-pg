@@ -17,4 +17,12 @@
     flex-direction: column;
     gap: 0.5em;
 }
+.engage .details p{
+    color: black;
+    text-align: start;
+    font-weight: 500;
+}
+.engage .details h1{
+    color: black;
+}
 

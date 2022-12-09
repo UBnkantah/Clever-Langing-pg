@@ -16,6 +16,11 @@
 .img img{
     width: 100%;
 }
+.revenue .details .built,
+.revenue .details h1,
+.revenue .details p{
+    color: black;
+}
 
 @media screen and (max-width: 767px) {
     .details h1{

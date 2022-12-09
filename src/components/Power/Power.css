@@ -17,3 +17,7 @@
     justify-content: center;
     width: 400px;
 }
+.power .details h1,
+.power .details p{
+    color: black;
+}

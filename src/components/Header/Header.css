@@ -8,7 +8,6 @@
 .header .details{
     display: flex;
     flex-direction: column;
-    color: white;
     justify-content: space-around;
     align-items: flex-start;
     text-align: start;
@@ -26,13 +25,15 @@
 .header-logo div img{
     width: 100%;
 }
-.header h1{
+.header .details h1{
     font-size: 55px;
     font-weight: 900;
+    color: white;
 }
-.header p{
+.header .details p{
     font-size: 20px;
     font-weight: 500;
+    color: white;
 }
 .header-img{
     height: 450px;
@@ -42,18 +43,31 @@
     height: 100%;
     width: 100%;
 }
+.header .details .button {
+    color: var(--mainRed);
+    border: 1px solid var(--mainRed);
+}
 @media screen and (max-width: 767px) {
     .header{
         padding: 0 30px;
+        height: fit-content;
     }
     .header .details{
         min-width: 320px;
     }
-    .header h1{
+    .header .details h1{
         font-size: 35px;
         font-weight: 600;
     }
+    .header .details p{
+        font-size: 15px;
+        font-weight: 500;
+    }
     .header-img{
         min-height: 320px;
+    }
+    .header-img img{
+        min-width: 330px;
+        height: 350px;
     }
 }
